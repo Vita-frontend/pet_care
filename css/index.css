@@ -1,2 +1,3 @@
-@import "header.css";
-@import "global.css";
+@import url(header.css);
+@import url(global.css);
+@import url(components.css);

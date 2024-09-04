@@ -1,21 +1,19 @@
-.header {
+
+.header__nav {
+    background-color: var(--fon-color);
+    display: flex;
+    flex: 1;
+}
+.header__logo-container {
+    max-width: 168px;
+    max-height: 40px;
     padding: 20px 24px;
 }
-.header__text-discribe {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 2.875rem;
-    font-family: "Rubik", sans-serif;
-}
-.header__text-offer {
-    color: var(--text-color);
-    font-weight: 500;
-    font-size: 1.1875rem;  
-    font-family: "Poppins", system-ui;
-}
+
 .header__social-link {
-    fill: var(--social-logo-color);
+    fill: var(--accent-color);
     text-decoration: none;
+    
 }
 .header__menu-link {
     color: var(--add-text-color);
@@ -23,6 +21,48 @@
     font-family: "Poppins", system-ui;
 }
 .header__menu-link:hover {
-    color: var(--social-logo-color);
+    color: var(--accent-color);
     text-decoration: underline;
+}
+.header__section {
+    background-image: url(../img/header-background.png);
+    background-size: cover;
+    background-position: 30% 70%;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header__text-discribe {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 2.875rem;
+    font-family: "Rubik", sans-serif;
+    padding: 20px 24px;
+    max-width: 560px;
+
+}
+.header__text-offer {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.1875rem;
+    font-family: "Poppins", system-ui;
+    padding: 20px 24px;
+
+}
+.header__button {
+    display: flex;
+    padding: 0 24px;
+}
+.header__button-accent {
+    padding: 10px;
+}
+
+
+
+
+@media (min-width: 1024px) {
+    .header__menu {
+        flex-direction: row;
+    }
 }

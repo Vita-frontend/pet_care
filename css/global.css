@@ -12,5 +12,15 @@
     --title-text-color: rgb(4, 15, 115);
     --text-color: rgb(66, 72, 117);
     --add-text-color: rgb(106, 110, 143);
-    --social-logo-color: rgb(255, 91, 46);
+    --accent-color: rgb(255, 91, 46);
+    --fon-color: rgb(255 246 237);
+    --text-botton-color: rgb(255, 255, 255);
+}
+img {
+    display: block;
+    width: 100%;
+}
+.container {
+    max-width: 1020px;
+    margin: auto;
 }

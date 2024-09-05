@@ -1,7 +1,7 @@
 .button {
     background-color: var(--accent-color);
     border-radius: 20px;
-    color: var(--text-botton-color);
+    color: var(--fon-card-color);
     display: flex;
     justify-content: center;
     align-items: center;

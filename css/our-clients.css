@@ -1,0 +1,39 @@
+.our-clients {
+    background-color: var(--fon-color);
+    padding: 20px 24px;
+    }
+    .our-clients__cards {
+        display: grid;
+        gap: 30px;
+    }
+.our-clients__card {
+    background-color: var(--fon-card-color);
+    border: var(--fon-card-color) solid 1px;
+    border-radius: 20px;
+    min-width: 270px;
+    min-height: 450px;
+ 
+}
+.our-clients__card .photo {
+    width: 70px;
+    height: 70px;
+}
+
+@media (min-width: 540px) {
+    .our-clients__cards {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        }
+        
+        }
+
+@media (min-width: 720px) {
+    .our-clients__cards {
+        grid-template-columns: repeat(3, 1fr);
+        }
+        .our-clients__card .photo {
+            width: 120px;
+            height: 120px;
+        }
+    }

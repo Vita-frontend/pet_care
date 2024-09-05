@@ -13,14 +13,31 @@
     --text-color: rgb(66, 72, 117);
     --add-text-color: rgb(106, 110, 143);
     --accent-color: rgb(255, 91, 46);
+    --social-icon-active-color: #be310a;
     --fon-color: rgb(255 246 237);
-    --text-botton-color: rgb(255, 255, 255);
+    --fon-card-color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
 }
+
 img {
     display: block;
     width: 100%;
 }
+
 .container {
     max-width: 1020px;
     margin: auto;
+}
+h2 {
+    color: var(--title-text-color);
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+.subtitle-text {
+    color: var(--text-color);
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0 40px 0;
 }

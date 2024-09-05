@@ -1,29 +1,44 @@
-
 .header__nav {
     background-color: var(--fon-color);
     display: flex;
-    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 24px;
 }
+
 .header__logo-container {
     max-width: 168px;
     max-height: 40px;
-    padding: 20px 24px;
+}
+
+.header__social {
+    display: none;
 }
 
 .header__social-link {
     fill: var(--accent-color);
     text-decoration: none;
-    
+    padding: 3px;
 }
+.header__social-link:hover {
+    fill: var(--social-icon-active-color);
+}
+.header__menu {
+    display: none;
+    padding: 0 156px;
+}
+
 .header__menu-link {
     color: var(--add-text-color);
     text-decoration: none;
     font-family: "Poppins", system-ui;
 }
+
 .header__menu-link:hover {
     color: var(--accent-color);
     text-decoration: underline;
 }
+
 .header__section {
     background-image: url(../img/header-background.png);
     background-size: cover;
@@ -33,6 +48,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .header__text-discribe {
     color: var(--title-text-color);
     font-weight: 700;
@@ -42,27 +58,42 @@
     max-width: 560px;
 
 }
+
 .header__text-offer {
     color: var(--text-color);
     font-weight: 500;
     font-size: 1.1875rem;
     font-family: "Poppins", system-ui;
     padding: 20px 24px;
-
 }
+
 .header__button {
     display: flex;
-    padding: 0 24px;
+    flex-direction: column;
+    padding: 24px 24px;
 }
+
 .header__button-accent {
     padding: 10px;
 }
 
-
-
-
 @media (min-width: 1024px) {
     .header__menu {
+        flex-direction: row;
+    }
+
+    .header__menu {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+    }
+    .header__social {
+        display: flex;
+    }
+}
+
+@media (min-width: 540px) {
+    .header__button {
         flex-direction: row;
     }
 }

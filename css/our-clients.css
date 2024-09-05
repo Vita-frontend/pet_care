@@ -1,39 +1,66 @@
 .our-clients {
     background-color: var(--fon-color);
     padding: 20px 24px;
-    }
-    .our-clients__cards {
-        display: grid;
-        gap: 30px;
-    }
+}
+
+.our-clients__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
 .our-clients__card {
     background-color: var(--fon-card-color);
     border: var(--fon-card-color) solid 1px;
-    border-radius: 20px;
-    min-width: 270px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    padding: 24px;
+    width: 100%;
     min-height: 450px;
- 
 }
 .our-clients__card .photo {
     width: 70px;
     height: 70px;
 }
 
+.our-clients__card .title {
+    color: var(--title-text-color);
+    font-size: 22px;
+    font: 500;
+}
+
+.our-clients__card .text {
+    color: var(--add-text-color);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.our-clients__card .data {
+    color: var(--accent-color);
+    font-size: 12px;
+    font-weight: 600;
+}
+
 @media (min-width: 540px) {
     .our-clients__cards {
-        display: grid;
-        gap: 30px;
         grid-template-columns: 1fr 1fr;
-        }
-        
-        }
+    }
+
+}
 
 @media (min-width: 720px) {
     .our-clients__cards {
         grid-template-columns: repeat(3, 1fr);
-        }
-        .our-clients__card .photo {
-            width: 120px;
-            height: 120px;
-        }
     }
+
+    .our-clients__card .photo {
+        width: 120px;
+        height: 120px;
+    }
+}

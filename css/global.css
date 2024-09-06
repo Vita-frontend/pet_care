@@ -44,3 +44,10 @@ h2 {
     text-align: center;
     padding: 20px 0 40px 0;
 }
+.text {
+    color: var(--add-text-color);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+}

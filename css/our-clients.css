@@ -1,8 +1,3 @@
-.our-clients {
-    background-color: var(--fon-color);
-    padding: 20px 24px;
-}
-
 .our-clients__cards {
     display: grid;
     grid-template-columns: 1fr;

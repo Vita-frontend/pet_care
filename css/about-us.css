@@ -1,26 +1,19 @@
-.about-us {
-    background-color: var(--fon-color);
-}
 .about-us__container {
     display: flex;
+    gap: 30px;
     flex-direction: column;
     flex: 1;
     justify-content: space-around;
-    padding: 20px 24px;
 }
 .about-us__picture {
     width: 100%;
-    padding-right: 24px;
 }
 .about-us__text {
     max-width: 500px;
-    padding-top: 42px;
-}
-.about-us__title {
-    text-align: start;
+    margin-top: 42px;
 }
 .about-us__space {
-    padding-bottom: 42px;
+    margin-bottom: 42px;
 }
 @media (min-width: 768px) {
     .about-us__container {

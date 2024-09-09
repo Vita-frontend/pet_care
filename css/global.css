@@ -49,5 +49,8 @@ h2 {
     font-size: 17px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
-
+}
+.section {
+    background-color: var(--fon-color);
+    padding: 20px 20px;
 }

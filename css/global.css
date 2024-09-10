@@ -1,56 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    font-family: "Rubik", sans-serif;
-    --title-text-color: rgb(4, 15, 115);
-    --text-color: rgb(66, 72, 117);
-    --add-text-color: rgb(106, 110, 143);
-    --accent-color: rgb(255, 91, 46);
-    --social-icon-active-color: #be310a;
-    --fon-color: rgb(255 246 237);
-    --fon-card-color: rgb(255, 255, 255);
-    scroll-behavior: smooth;
+  font-family: "Rubik", sans-serif;
+  --title-text-color: rgb(4, 15, 115);
+  --text-color: rgb(66, 72, 117);
+  --add-text-color: rgb(106, 110, 143);
+  --accent-color: rgb(255, 91, 46);
+  --social-icon-active-color: #be310a;
+  --fon-color: rgb(255 246 237);
+  --fon-card-color: rgb(255, 255, 255);
+  scroll-behavior: smooth;
 }
 
 img {
-    display: block;
-    width: 100%;
-}
-
-.container {
-    max-width: 1020px;
-    margin: auto;
+  display: block;
+  width: 100%;
 }
 
 h2 {
-    color: var(--title-text-color);
-    font-size: 28px;
-    font-weight: 700;
-    text-align: center;
+  color: var(--title-text-color);
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
 }
-
+h4 {
+  color: var(--title-text-color);
+  font-size: 22px;
+  font: 500;
+}
 .subtitle-text {
-    color: var(--text-color);
-    font-size: 19px;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    padding: 20px 0 40px 0;
+  color: var(--text-color);
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 20px 0 40px 0;
 }
 .text {
-    color: var(--add-text-color);
-    font-size: 17px;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
+  color: var(--add-text-color);
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.data {
+  color: var(--accent-color);
+  font-size: 12px;
+  font-weight: 600;
 }
 .section {
-    background-color: var(--fon-color);
-    padding: 20px 20px;
+  background-color: var(--fon-color);
+  padding: 20px 20px;
+  max-width: 1020px;
+  margin: auto;
 }

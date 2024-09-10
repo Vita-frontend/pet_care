@@ -22,24 +22,11 @@
     width: 70px;
     height: 70px;
 }
-
-.our-clients__card .title {
-    color: var(--title-text-color);
-    font-size: 22px;
-    font: 500;
-}
-
 .our-clients__card .text {
     color: var(--add-text-color);
     font-size: 17px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
-}
-
-.our-clients__card .data {
-    color: var(--accent-color);
-    font-size: 12px;
-    font-weight: 600;
 }
 
 @media (min-width: 540px) {

@@ -1,0 +1,24 @@
+.our-team__cards .photo {
+    max-width: 370px;
+}
+.our-team__cards {
+    display: grid;
+    gap: 40px;
+}
+.our-team__cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+} 
+@media (min-width: 540px) {
+    .our-team__cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1024px) {
+    .our-team__cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

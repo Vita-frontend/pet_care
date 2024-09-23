@@ -1,22 +1,13 @@
-.about-us__container {
-    display: flex;
-    gap: 30px;
-    flex-direction: column;
-    flex: 1;
-    justify-content: space-around;
-}
-.about-us__picture {
-    width: 100%;
-}
-.about-us__text {
-    max-width: 500px;
-    margin-top: 42px;
+.about-us {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
 }
 .about-us__space {
-    margin-bottom: 42px;
+  margin-bottom: 42px;
 }
-@media (min-width: 768px) {
-    .about-us__container {
-        flex-direction: row;
-    }
+@media (min-width: 540px) {
+  .about-us {
+    flex-direction: row;
+  }
 }

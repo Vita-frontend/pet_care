@@ -54,7 +54,7 @@ h4 {
   font-size: 12px;
   font-weight: 600;
 }
-.section {
+.container {
   background-color: var(--fon-color);
   padding: 20px 20px;
   max-width: 1020px;
